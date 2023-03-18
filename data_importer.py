@@ -5,4 +5,4 @@ with open('./SAMPLE.json') as f:
     data = json.load(f)
 
 tags = data['tags']
-print(tags)
+print(tags[0])

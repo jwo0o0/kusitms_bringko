@@ -11,7 +11,8 @@ generateBtn.addEventListener("click", () => {
   }
 });
 
-//답변 생성
+//SentenceTransformer 모델 호출 -> 답변 생성
+//-> 익스텐션의 창에 보여줌
 const generateAnswer = async (tag) => {
   const answer = (tag) => {
     return new Promise((resolve) => {
@@ -30,21 +31,7 @@ const generateAnswer = async (tag) => {
     });
 };
 
+//복사하기 버튼 클릭시 클립보드에 답변 내용 복사
 copyBtn.addEventListener("click", () => {
   navigator.clipboard.writeText(answerBox.innerHTML);
 });
-
-//답장입력 버튼 클릭시 Zendesk answer 답변에 내용 입력
-// fillBtn.addEventListener("click", async () => {
-//   let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-//   await chrome.scripting.executeScript({
-//     target: {
-//       tabId: tab.id,
-//     },
-//     func: () => {
-//       document.querySelector(
-//         "#editor-view > span > div > div > div > div.zendesk-editor--rich-text-container.sc-1j8a31a-0.dsFzEz > div.q5rfsr-0.depXzB > div > p"
-//       ).innerHTML = "답변";
-//     },
-//   });
-// });
