@@ -1,0 +1,215 @@
+{
+  "url": "https://bringko.zendesk.com/api/v2/tickets/164722.json",
+  "id": 164722,
+  "external_id": null,
+  "via": {
+    "channel": "web",
+    "source": {
+      "from": {},
+      "to": {},
+      "rel": null
+    },
+    "id": 0
+  },
+  "created_at": "2022-09-25T05:28:07.000Z",
+  "updated_at": "2022-10-04T06:02:04.000Z",
+  "type": null,
+  "subject": "안녕하세요. Bringko입니다. (스타일위크)",
+  "raw_subject": "안녕하세요. Bringko입니다. (스타일위크)",
+  "priority": "low",
+  "status": "closed",
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "forum_topic_id": null,
+  "problem_id": null,
+  "has_incidents": false,
+  "is_public": true,
+  "due_at": null,
+  "tags": ["주문전cs_기타"],
+  "custom_fields": [
+    {
+      "id": 12592345661721,
+      "value": null
+    },
+    {
+      "id": 12592843749657,
+      "value": null
+    },
+    {
+      "id": 12592998966169,
+      "value": null
+    }
+  ],
+  "satisfaction_rating": {
+    "score": "unoffered"
+  },
+  "sharing_agreement_ids": [],
+  "fields": [
+    {
+      "id": 12592345661721,
+      "value": null
+    },
+    {
+      "id": 12592843749657,
+      "value": null
+    },
+    {
+      "id": 12592998966169,
+      "value": null
+    }
+  ],
+  "followup_ids": [],
+  "ticket_form_id": 1500000116142,
+  "brand_id": 360004075354,
+  "metric_set": {
+    "url": "https://bringko.zendesk.com/api/v2/ticket_metrics/10838221627673.json",
+    "id": 10838221627673,
+    "ticket_id": 164722,
+    "created_at": "2022-09-25T05:28:07.000Z",
+    "updated_at": "2022-09-27T02:52:32.000Z",
+    "group_stations": 1,
+    "assignee_stations": 1,
+    "reopens": 0,
+    "replies": 1,
+    "assignee_updated_at": "2022-09-27T02:52:32.000Z",
+    "requester_updated_at": "2022-09-25T05:28:07.000Z",
+    "status_updated_at": "2022-10-04T06:02:04.000Z",
+    "initially_assigned_at": "2022-09-27T02:52:32.000Z",
+    "assigned_at": "2022-09-27T02:52:32.000Z",
+    "solved_at": "2022-09-27T02:52:32.000Z",
+    "latest_comment_added_at": "2022-09-27T02:52:32.000Z",
+    "reply_time_in_minutes": {
+      "calendar": 2724,
+      "business": 683
+    },
+    "first_resolution_time_in_minutes": {
+      "calendar": 2724,
+      "business": 683
+    },
+    "full_resolution_time_in_minutes": {
+      "calendar": 2724,
+      "business": 683
+    },
+    "agent_wait_time_in_minutes": {
+      "calendar": 2689,
+      "business": 647
+    },
+    "requester_wait_time_in_minutes": {
+      "calendar": 35,
+      "business": 35
+    },
+    "on_hold_time_in_minutes": {
+      "calendar": 0,
+      "business": 0
+    }
+  },
+  "dates": {
+    "assignee_updated_at": "2022-09-27T02:52:32.000Z",
+    "requester_updated_at": "2022-09-25T05:28:07.000Z",
+    "status_updated_at": "2022-10-04T06:02:04.000Z",
+    "initially_assigned_at": "2022-09-27T02:52:32.000Z",
+    "assigned_at": "2022-09-27T02:52:32.000Z",
+    "solved_at": "2022-09-27T02:52:32.000Z",
+    "latest_comment_added_at": "2022-09-27T02:52:32.000Z"
+  },
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "generated_timestamp": 1674876631,
+  "submitter": {
+    "EMPTY": ""
+  },
+  "requester": {
+    "EMPTY": ""
+  },
+  "assignee": {
+    "EMPTY": ""
+  },
+  "collaborator": [],
+  "recipient": "cs@bringko.com",
+  "group": {
+    "url": "https://bringko.zendesk.com/api/v2/groups/360008591774.json",
+    "id": 360008591774,
+    "is_public": true,
+    "name": "지원",
+    "description": "",
+    "default": false,
+    "deleted": false,
+    "created_at": "2020-02-25T07:43:03.000Z",
+    "updated_at": "2021-05-11T01:45:45.000Z"
+  },
+  "organization": null,
+  "comments": [
+    {
+      "id": 10838226294169,
+      "type": "Comment",
+      "author_id": 427398674134,
+      "mapped_content_url": "https://cs.bringko.com/attachments/token/842072Ge8YiVYbiPxRgeNmZn7/?name=%EC%8A%A4%ED%83%80%EC%9D%BC%EC%9C%84%ED%81%AC.png",
+      "content_type": "image/png",
+      "size": 280902,
+      "width": 700,
+      "height": 1911,
+      "inline": false,
+      "deleted": false,
+      "malware_access_override": false,
+      "malware_scan_result": "malware_not_found",
+      "thumbnails": [
+        {
+          "url": "https://bringko.zendesk.com/api/v2/attachments/10838188607001.json",
+          "id": 10838188607001,
+          "file_name": "스타일위크_thumb.png",
+          "content_url": "https://bringko.zendesk.com/attachments/token/VL1yJIyiq07u6XDjYQtTf4NSt/?name=%EC%8A%A4%ED%83%80%EC%9D%BC%EC%9C%84%ED%81%AC_thumb.png",
+          "mapped_content_url": "https://cs.bringko.com/attachments/token/VL1yJIyiq07u6XDjYQtTf4NSt/?name=%EC%8A%A4%ED%83%80%EC%9D%BC%EC%9C%84%ED%81%AC_thumb.png",
+          "content_type": "image/png",
+          "size": 3372,
+          "width": 29,
+          "height": 80,
+          "inline": false,
+          "deleted": false,
+          "malware_access_override": false,
+          "malware_scan_result": "malware_not_found"
+        }
+      ]
+    }
+  ],
+  "audit_id": 10838226293913,
+  "ticket_id": 164722,
+  "via": {
+    "channel": "web",
+    "source": {
+      "from": {},
+      "to": {},
+      "rel": null
+    }
+  },
+  "metadata": {
+    "system": {
+      "EMPTY": ""
+    },
+    "custom": {}
+  },
+  "created_at": "2022-09-25T05:28:07.000Z",
+  "id": 10903707136921,
+  "type": "Comment",
+  "author_id": 1505619004521,
+  "body": "안녕하세요. Bringko입니다.\n\n▶주문번호: 1664070835652\n▶상품명: 시노글라스 실리콘오일병 블랙\n▷Option: [300ml × 2개]\n\n▶상품명: 락앤락 도시락통 용기 직장인 샐러드 런치박스 DOSILOCK 스타터팩\n▷Option: [02락앤락 DOSILOCK 프로페셔널]\n\n▶상품명: 마리슈타이거 행주걸이 행주건조대 와이어 스탠드 주방정리 키친타올걸이 수세미 건조\n\n▶상품명: 차모아 차량용 고속 무선충전 핸드폰 거치대 충신 MC-3\n▷Option: [K205_무선충전 거치대 충신 MC-3]\n\n해당 상품들은 이전 안내드린 내용에 회신이 오지 않아 일반 배송으로 구매 진행 예정입니다.\n\n상품들은 모두 입고 후 순차적으로 패킹하여 2차 해외배송비 메일로 안내될 예정이오니 참고 해주시어 너그러운 시간 양해 부탁드립니다.\n\n추후, 궁금하신 사항이 있으실 경우 언제든지 연락 주시면 신속히 확인해서 답변드리겠습니다.\n\n감사합니다.",
+  "html_body": "\u003cdiv class=\"zd-comment\" dir=\"auto\"\u003e안녕하세요. Bringko입니다.\u003cbr\u003e\u0026nbsp;\u003cbr\u003e▶주문번호:\u0026nbsp;1664070835652\u003cbr\u003e▶상품명:\u0026nbsp;시노글라스 실리콘오일병 블랙\u003cbr\u003e▷Option: [300ml × 2개]\u003cbr\u003e\u0026nbsp;\u003cbr\u003e▶상품명: 락앤락 도시락통 용기 직장인 샐러드 런치박스 DOSILOCK 스타터팩\u003cbr\u003e▷Option: [02락앤락 DOSILOCK 프로페셔널]\u003cbr\u003e\u0026nbsp;\u003cbr\u003e▶상품명: 마리슈타이거 행주걸이 행주건조대 와이어 스탠드 주방정리 키친타올걸이 수세미 건조\u003cbr\u003e\u0026nbsp;\u003cbr\u003e▶상품명: 차모아 차량용 고속 무선충전 핸드폰 거치대 충신 MC-3\u003cbr\u003e▷Option: [K205_무선충전 거치대 충신 MC-3]\u003cbr\u003e\u0026nbsp;\u003cbr\u003e해당 상품들은 이전 안내드린 내용에 회신이 오지 않아 일반 배송으로 구매 진행 예정입니다.\u0026nbsp;\u003cbr\u003e\u0026nbsp;\u003cbr\u003e상품들은 모두 입고 후 순차적으로 패킹하여 2차 해외배송비 메일로 안내될 예정이오니 참고 해주시어 너그러운 시간 양해 부탁드립니다.\u003cbr\u003e\u0026nbsp;\u003cbr\u003e추후, 궁금하신 사항이 있으실 경우 언제든지 연락 주시면 신속히 확인해서 답변드리겠습니다.\u003cbr\u003e\u0026nbsp;\u003cbr\u003e감사합니다.\u003cbr\u003e\u003c/div\u003e",
+  "plain_body": "안녕하세요. Bringko입니다.\n\u0026nbsp;\n▶주문번호:\u0026nbsp;1664070835652\n▶상품명:\u0026nbsp;시노글라스 실리콘오일병 블랙\n▷Option: [300ml × 2개]\n\u0026nbsp;\n▶상품명: 락앤락 도시락통 용기 직장인 샐러드 런치박스 DOSILOCK 스타터팩\n▷Option: [02락앤락 DOSILOCK 프로페셔널]\n\u0026nbsp;\n▶상품명: 마리슈타이거 행주걸이 행주건조대 와이어 스탠드 주방정리 키친타올걸이 수세미 건조\n\u0026nbsp;\n▶상품명: 차모아 차량용 고속 무선충전 핸드폰 거치대 충신 MC-3\n▷Option: [K205_무선충전 거치대 충신 MC-3]\n\u0026nbsp;\n해당 상품들은 이전 안내드린 내용에 회신이 오지 않아 일반 배송으로 구매 진행 예정입니다.\u0026nbsp;\n\u0026nbsp;\n상품들은 모두 입고 후 순차적으로 패킹하여 2차 해외배송비 메일로 안내될 예정이오니 참고 해주시어 너그러운 시간 양해 부탁드립니다.\n\u0026nbsp;\n추후, 궁금하신 사항이 있으실 경우 언제든지 연락 주시면 신속히 확인해서 답변드리겠습니다.\n\u0026nbsp;\n감사합니다.",
+  "public": true,
+  "attachments": [],
+  "audit_id": 10903707136793,
+  "ticket_id": 164722,
+  "via": {
+    "channel": "web",
+    "source": {
+      "from": {},
+      "to": {},
+      "rel": null
+    }
+  },
+  "metadata": {
+    "system": {
+      "EMPTY": ""
+    },
+    "created_at": "2022-09-27T02:52:32.000Z"
+  }
+}
