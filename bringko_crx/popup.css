@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+div.flex {
+  display: flex;
+}
+
+div.column {
+  flex-direction: column;
+}
+
+div.title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+div.main {
+  width: 360px;
+  height: 360px;
+  border: 1px solid #ff8800;
+  padding: 10px;
+}
+
+div.answer {
+  background-color: #f5f5f5;
+  height: 180px;
+  border: 1px solid gray;
+}
+
+input#tag {
+  background-color: #f5f5f5;
+  outline: none;
+  border: 1px solid gray;
+}
+
+button.generate {
+  border: none;
+  background-color: transparent;
+  color: #ff8800;
+  font-size: 12px;
+  font-weight: 600;
+}
+button.generate:hover {
+  cursor: pointer;
+}
+
+button.fill,
+button.copy {
+  border: none;
+  background-color: #ff8800;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 16px;
+}
+button.fill:hover,
+button.copy:hover {
+  background-color: #ffad4f;
+  cursor: pointer;
+}

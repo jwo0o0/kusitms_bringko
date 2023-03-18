@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <div class="main flex column">
+      <div class="flex">
+        <div class="title">태그 입력</div>
+        <input type="text" id="tag" />
+        <button class="generate">답변생성</button>
+      </div>
+      <div class="flex column">
+        <div class="title">생성된 답변</div>
+        <div class="answer"></div>
+      </div>
+      <div>
+        <!-- <button class="fill">답장 입력</button> -->
+        <button class="copy">복사하기</button>
+      </div>
+    </div>
+    <script src="./popup.js" type="module"></script>
+  </body>
+</html>
