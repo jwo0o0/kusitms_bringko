@@ -1,7 +1,6 @@
 const tagInput = document.querySelector("input#tag");
 const generateBtn = document.querySelector("button.generate");
 const answerBox = document.querySelector("div.answer");
-const fillBtn = document.querySelector("button.fill");
 const copyBtn = document.querySelector("button.copy");
 
 //답변생성 버튼 클릭시 답변 생성 후 보여줌
